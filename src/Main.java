@@ -2,7 +2,7 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
       public static void main(String[] args) {
-// Задача 1
+//           ----    Задача 1   ----
 //           dog значение 8.0;
 //           cat значение 3.6;
 //           paper значение 763789
@@ -15,7 +15,7 @@ public class Main {
         var paper = 763789;
         System.out.println(paper);
 
-// Задача 2
+//           ----    Задача 2   ----
 //  Увеличьте значение каждой перечисленной в прошлой задаче переменной на 4
 
     System.out.println("Задание № 2 ");
