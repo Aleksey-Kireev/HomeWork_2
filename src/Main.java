@@ -1,12 +1,16 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+
+import java.util.Scanner; // импорт сканера
+
 public class Main {
+
       public static void main(String[] args) {
+
+
 //           ----    Задача 1   ----
 //           dog значение 8.0;
 //           cat значение 3.6;
 //           paper значение 763789
-
+/*
     System.out.println("Задание № 1 ");
         var dog = 8.0;
         System.out.println(dog);
@@ -86,6 +90,15 @@ public class Main {
         var worker_2 = worker_1 + 94;
         var workHours = worker_2 * 8;
           System.out.println("Если в компании работает " + worker_2 + " человека, то всего " + workHours + " часа работы может быть поделено между сотрудниками.");
+*/
+//           ----    Задача 9   ----
+
+       System.out.print("Введите любое целое число от 1 до 10: ");
+             Scanner scan = new Scanner(System.in);
+             int number = scan.nextInt();
+             System.out.println ("Вы ввели число " + number);
+
+
 
 
         }
